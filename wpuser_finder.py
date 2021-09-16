@@ -32,7 +32,7 @@ def logo():
     print(bcolors.GREEN + bcolors.BOLD + """
            ____                      ,
           /---.'.__  WORDPRESS  ____//
-               '--.\ USERNAME  /.---'
+               '--.\ ADMIN USER/.---'
           _______  \\ FINDER  //
         /.------.\  \|      .'/  ______
        //  ___  \ \ ||/|\  //  _/_----.\__
