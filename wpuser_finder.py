@@ -3,9 +3,7 @@
 # Github => github/iamajraj
 import requests
 import json
-import os
 from os import error, system, name
-import time
 # COLOR OPTION
 
 
@@ -32,7 +30,7 @@ def logo():
     print(bcolors.GREEN + bcolors.BOLD + """
            ____                      ,
           /---.'.__  WORDPRESS  ____//
-               '--.\ ADMIN USER/.---'
+               '--.\ USERNAME  /.---'
           _______  \\ FINDER  //
         /.------.\  \|      .'/  ______
        //  ___  \ \ ||/|\  //  _/_----.\__
@@ -71,8 +69,8 @@ def main():
             result = data[0]["slug"]
             print("We Got It !")
             print("Username found: " + bcolors.GREEN + result + bcolors.ENDC)
-        except error as e:
-            print(bcolors.FAIL + "Something went wrong !")
+        except Exception as e:
+            print("Error occured during fetching data:", e)
     elif inp == "2":
         print("Have a nice day !")
         exit()
