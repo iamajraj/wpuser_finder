@@ -11,6 +11,11 @@ A tool that can find the admin username of WordPress
 ```bash
   pip install requests
 ```
+## Start Command
+
+```bash
+  python3 wpuser_finder.py
+```
 ## Author
 - [@iamajraj](https://www.github.com/iamajraj)
 
